@@ -11,6 +11,8 @@ nmap -sV 192.168.138.130
 ```
 Look for open ports + service versions to match known exploits.
 
+**nmap scan:**
+![Shell Gained](../screenshots/nmap_scan.png)
 ---
 
 ### Common Metasploit Steps
