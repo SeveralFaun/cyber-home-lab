@@ -13,6 +13,7 @@ This lab simulates a small network of machines to replicate attacker/defender sc
 | Kali Linux     | Attacker     | Penetration testing tools, Metasploit, recon |
 | Windows 10     | Victim       | Simulated endpoint for attack + logging  |
 | Metasploitable | Target       | Vulnerable Linux machine for exploitation |
+| Ubuntu 22.04 | Monitoring      | Machine running Splunk Enterprise |
 
 > All machines are networked via **VMnet1 (Host-Only)** to keep the lab isolated from the internet.
 
