@@ -42,7 +42,7 @@ This lab simulates a small network of machines to replicate attacker/defender sc
 | Exploitation       | Metasploit Framework   |
 | Web/App Testing    | Burp Suite, DVWA       |
 | Defensive Logging  | Windows Event Viewer, Sysinternals |
-| Monitoring (planned) | Sysmon, ELK Stack (optional) |
+| Monitoring | Splunk Enterprise, Sysmon, ELK Stack |
 
 ---
 
