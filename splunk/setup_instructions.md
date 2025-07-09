@@ -22,3 +22,6 @@
 4. **Login via Browser**
 
     Open `http://localhost:8000` and sign in with your admin credentials.
+
+**Splunk Logs:**
+![Shell Failed](../screenshots/splunk_logs.png)
