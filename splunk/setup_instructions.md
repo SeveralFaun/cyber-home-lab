@@ -24,4 +24,4 @@
     Open `http://localhost:8000` and sign in with your admin credentials.
 
 **Splunk Logs:**
-![Shell Failed](../screenshots/splunk_logs.png)
+![Splunk Logs](../screenshots/splunk_logs.png)
