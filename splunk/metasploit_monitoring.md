@@ -21,4 +21,4 @@ The scripted is automated via Cron Job to run every 5 minutes by using `crontab 
 Finally configured Splunk to monitor `/var/log/custom/*.log` and verified automatic log ingestion.
 
 **Auto logs**
-![Automated Meta Logs](../screenshots/splunk_meta_logs_fixed.png)
+![Automated Meta Logs](../screenshots/splunk_logs_fixed.png)
