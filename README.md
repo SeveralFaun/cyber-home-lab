@@ -49,7 +49,8 @@ This lab simulates a small network of machines to replicate attacker/defender sc
 
 ## 🗂️ Notes & Walkthroughs
 
-> Notes and writeups go here in the future  
+- [Exploitation Notes](./exploits)
+- [Splunk Notes](./splunk)
 
 ---
 
