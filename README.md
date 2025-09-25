@@ -41,8 +41,8 @@ This lab simulates a small network of machines to replicate attacker/defender sc
 |--------------------|------------------------|
 | Recon/Scanning     | `nmap`, `netcat`, `enum4linux` |
 | Exploitation       | Metasploit Framework   |
-| Web/App Testing    | Burp Suite, DVWA       |
-| Defensive Logging  | Windows Event Viewer, Sysinternals |
+| Web/App Testing    | Burp Suite, DVWA (Planned)      |
+| Defensive Logging  | Windows Event Viewer, Sysinternals (Planned) |
 | Monitoring | Splunk Enterprise, Sysmon, ELK Stack |
 
 ---
